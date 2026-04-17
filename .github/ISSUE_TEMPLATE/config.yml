@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Anonymous feedback form (no GitHub account needed)
+    url: https://blackletter.studio/feedback
+    about: Prefer anonymous? Use the public form.
+  - name: Security disclosure (private)
+    url: mailto:security@blackletter.studio
+    about: Report security issues privately.

@@ -1,0 +1,21 @@
+name: Bug report
+description: Something is broken
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Steps to reproduce, expected vs actual.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: App / add-in version string (visible in "About" panel)
+  - type: input
+    id: os
+    attributes:
+      label: OS and Word version
+      placeholder: "macOS 15.2, Word for Mac 16.82"

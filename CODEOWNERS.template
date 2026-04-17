@@ -1,0 +1,10 @@
+# Copy this to .github/CODEOWNERS in each repo and tune paths.
+# Default reviewers for everything:
+*       @twitchyvr
+
+# Dictionary changes: require extra review (mirrors spec's two-reviewer gate)
+/src/**/*.dic     @twitchyvr
+/src/**/*.aff     @twitchyvr
+
+# Security-sensitive paths
+/SECURITY.md      @twitchyvr
